@@ -1,0 +1,27 @@
+.info-user {
+    border-radius: 16px;
+    padding: 24px;
+    background: #E5ECF6;
+}
+
+.info-user.active {
+    background: #D0FFE0;
+}
+
+.info-user.inactive {
+    background: #DDDDDD;
+}
+
+.main-info {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.preview {
+    display: none;
+}
+.preview img {
+    max-width: 100%;
+    max-height: 200px;
+    height: auto;
+}

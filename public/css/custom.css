@@ -1,0 +1,91 @@
+.menu-sub .menu-item .menu-link.active {
+    background-color: var(--color-primary-4) !important;
+    border-radius: 4px;
+}
+
+.aside-menu .menu-item .menu-link.active::after {
+    display: none;
+}
+
+.aside-menu .menu-item .menu-link .menu-arrow::after {
+    color: #FFF !important;
+}
+
+.aside-menu .menu-item.hover:not(.here)>.menu-link:not(.disabled):not(.active):not(.here),
+.aside-menu .menu-item:not(.here) .menu-link:hover:not(.disabled):not(.active):not(.here) {
+    background-color: transparent !important;
+}
+
+.aside-menu .menu-item .menu-link.active {
+    background-color: var(--color-primary-4) !important;
+    border-radius: 4px;
+}
+
+#kt_modal_delete .modal-dialog .modal-content {
+    border-radius: 12px !important;
+}
+
+.btn-popup-confirmation {
+    background-color: #FF4747 !important;
+    border-radius: 6px;
+}
+
+.btn-popup-confirmation-outline {
+    border-color: #FF4747 !important;
+    border-radius: 6px;
+}
+
+.form-switch.form-check-solid.form-switch-sm .form-check-input {
+    height: 1.2rem;
+    width: 2rem;
+}
+
+.form-check.form-check-solid .form-check-input {
+    background-color: #CBCBCB;
+}
+
+.button-edit-img {
+    background: #FFF;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    border: 1px solid #EAEAEA;
+    cursor: pointer;
+}
+
+.button-clear-img {
+    background: #FFF;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+    border: 1px solid #EAEAEA;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.container-img,
+.container-img-edit {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 120px;
+    height: 120px;
+    border-radius: 2px;
+    position: relative;
+    border: 1px solid #EAEAEA;
+}
+
+.modal-content {
+    border-radius: 6px;
+}
+
+.error {
+    color: red;
+}
